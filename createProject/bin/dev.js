@@ -5,7 +5,6 @@ const path = require('path');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
 const express = require('express');
-
 const hmrServer = express();
 const clientCompailer = webpack(webpackClientConfig);
 
